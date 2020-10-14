@@ -1,1 +1,1 @@
-# Resolver
+# Курсовая работы "Resolver"
