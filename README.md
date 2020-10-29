@@ -7,4 +7,5 @@
 В данной работе описывается пошаговый процесс создания приложения, которое служит помощником для учеников школ в решении домашнего задания.
 
 Приложение реализовано в [Microsoft Visual Studio 2019][1]на языке программирования С#.
-[1]: https://visualstudio.microsoft.com/ru
+
+[1]: https://visualstudio.microsoft.com/ru "Microsoft Visual Stodio 2019"
