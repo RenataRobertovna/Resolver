@@ -1,0 +1,68 @@
+﻿<Window x:Class="Resolver.Bookmarks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resolver"
+        mc:Ignorable="d"
+        Title="Bookmarks" 
+        Height="709" 
+        Width="614">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left"
+                   Margin="26,134,0,0" 
+                   Text="Закладки"
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Top" 
+                   Height="62" 
+                   Width="259"
+                   FontSize="48"
+                   FontWeight="Bold"/>
+        <Button x:Name="Home_Page"
+                HorizontalAlignment="Left" 
+                Margin="25,19,0,0" 
+                VerticalAlignment="Top"
+                Height="100"
+                Width="115"
+                Click="Home_Page_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/BookIcon.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Vip_Page" 
+                HorizontalAlignment="Left" 
+                Margin="170,19,0,0" 
+                VerticalAlignment="Top" 
+                RenderTransformOrigin="0.505,0.503" 
+                Height="100"
+                Width="115"
+                Click="Vip_Page_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/vip.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Bookmarks_Page"
+            HorizontalAlignment="Left" 
+            Margin="320,19,0,0" 
+            VerticalAlignment="Top" 
+            Height="100" 
+            Width="115"
+            Click="Bookmarks_Page_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/bookmarks.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Questions_Page"
+            HorizontalAlignment="Left" 
+            Margin="465,19,0,0" 
+            VerticalAlignment="Top" 
+            Height="100" 
+            Width="115" 
+            IsDefault="True"
+            Click="Questions_Page_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/questions.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,124 @@
+﻿<Window x:Class="Resolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Resolver"
+        mc:Ignorable="d"
+        Title="Решебник" 
+        Height="709" 
+        Width="614">
+    <Grid Margin="0,0,0,8">
+        <Button x:Name="Home"
+                HorizontalAlignment="Left" 
+                Margin="25,19,0,0" 
+                VerticalAlignment="Top"
+                Height="100"
+                Width="115">
+            <Button.Background>
+                <ImageBrush ImageSource="/BookIcon.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Vip" 
+                HorizontalAlignment="Left" 
+                Margin="170,19,0,0" 
+                VerticalAlignment="Top" 
+                RenderTransformOrigin="0.505,0.503" 
+                Height="100"
+                Width="115"
+                Click="Vip_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/vip.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Bookmarks"
+                HorizontalAlignment="Left" 
+                Margin="320,19,0,0" 
+                VerticalAlignment="Top" 
+                Height="100" 
+                Width="115"
+                Click="Bookmarks_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/bookmarks.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Questions"
+                HorizontalAlignment="Left" 
+                Margin="465,19,0,0" 
+                VerticalAlignment="Top" 
+                Height="100" 
+                Width="115" 
+                IsDefault="True"
+                Click="Questions_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/questions.png"/>
+            </Button.Background>
+        </Button>
+        <Grid Margin="0,124,0,0">
+            <Button x:Name="One" 
+                    Margin="68,74,434,381"
+                    Click="One_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/One.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Two"
+                    Margin="245,74,254,381"
+                    Click="Two_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Two.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Three"
+                    Margin="430,74,69,381"
+                    Click="Three_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Three.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Four"
+                    Margin="68,216,434,241"
+                    Click="Four_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Four.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Five"
+                    Margin="245,216,254,241"
+                    Click="Five_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Five.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Six" 
+                    Margin="430,216,69,241"
+                    Click="Six_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Six.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Seven"
+                    Margin="68,365,434,86"
+                    Click="Seven_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Seven.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Eight"
+                    Margin="245,365,254,86"
+                    Click="Eight_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Eight.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Nine"
+                    Margin="430,365,69,86"
+                    Click="Nine_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Nine.png"/>
+                </Button.Background>
+            </Button>
+            <TextBlock HorizontalAlignment="Center" Margin="0,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="51" FontFamily="Gabriola" FontSize="36" TextAlignment="Center" FontWeight="Bold"><Run Language="ru-ru" Text="Выберите класс"/></TextBlock>
+        </Grid>
+    </Grid>
+</Window>
