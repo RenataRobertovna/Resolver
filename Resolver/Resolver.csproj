@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BookIcon.png" />
+    <None Remove="bookmarks.png" />
+    <None Remove="Eight.png" />
+    <None Remove="Five.png" />
+    <None Remove="Four.png" />
+    <None Remove="icon.jpg" />
+    <None Remove="left-arrow.png" />
+    <None Remove="Math.jpg" />
+    <None Remove="Math_book2.jpg" />
+    <None Remove="Nine.png" />
+    <None Remove="One.png" />
+    <None Remove="questions.png" />
+    <None Remove="Seven.png" />
+    <None Remove="Six.png" />
+    <None Remove="Three.png" />
+    <None Remove="Two.png" />
+    <None Remove="vip.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BookIcon.png" />
+    <Resource Include="bookmarks.png" />
+    <Resource Include="Eight.png" />
+    <Resource Include="Five.png" />
+    <Resource Include="Four.png" />
+    <Resource Include="icon.jpg" />
+    <Resource Include="left-arrow.png" />
+    <Resource Include="Math.jpg" />
+    <Resource Include="Math_book2.jpg" />
+    <Resource Include="Nine.png" />
+    <Resource Include="One.png" />
+    <Resource Include="questions.png" />
+    <Resource Include="Seven.png" />
+    <Resource Include="Six.png" />
+    <Resource Include="Three.png" />
+    <Resource Include="Two.png" />
+    <Resource Include="vip.png" />
+  </ItemGroup>
+
+</Project>

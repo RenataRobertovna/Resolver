@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Bookmarks.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Math_book.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="One.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Part_one.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Questions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vip.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Bookmarks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Math_book.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="One.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Part_one.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Questions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vip.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
