@@ -6,9 +6,12 @@
         xmlns:local="clr-namespace:Resolver"
         mc:Ignorable="d"
         Title="Решебник" 
-        Height="709" 
-        Width="614"
-        ResizeMode="NoResize">
+        Height="720" 
+        Width="600"
+        ResizeMode="NoResize"
+        Icon="/books.png"
+        WindowStartupLocation="CenterScreen"
+        Topmost="True">
     <Grid Margin="0,0,0,8">
         <Button x:Name="Home"
                 HorizontalAlignment="Left" 
@@ -26,8 +29,7 @@
                 VerticalAlignment="Top" 
                 RenderTransformOrigin="0.505,0.503" 
                 Height="100"
-                Width="115"
-                Click="Vip_Click">
+                Width="115">
             <Button.Background>
                 <ImageBrush ImageSource="/vip.png"/>
             </Button.Background>

@@ -38,7 +38,23 @@ namespace Resolver
 
         private void part2_Click(object sender, RoutedEventArgs e)
         {
+            Part_two part_Two = new Part_two();
+            part_Two.Show();
+            this.Close();
+        }
 
+        private void button_Task_Click(object sender, RoutedEventArgs e)
+        {
+            PartTwo_Task partTwo_Task = new PartTwo_Task();
+            partTwo_Task.Show();
+            this.Close();
+        }
+
+        private void button_task_Click_1(object sender, RoutedEventArgs e)
+        {
+            PartTwo_task2 partTwo_Task2 = new PartTwo_task2();
+            partTwo_Task2.Show();
+            this.Close();
         }
     }
 }

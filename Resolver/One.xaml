@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Resolver"
         mc:Ignorable="d"
-        Title="One" 
-        Height="1000"
-        Width="800">
+        Title="1 класс" 
+        Height="800"
+        Width="600"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Topmost="True">
     <Grid>
         <ListBox>
             <Button x:Name="back"
@@ -17,74 +20,149 @@
                 <Button.Background>
                     <ImageBrush ImageSource="/left-arrow.png"/>
                 </Button.Background>
+               
             </Button>
             <StackPanel Margin="5" 
                         Orientation="Horizontal" 
-                        Width="765" 
-                        Height="254">
-                <Button x:Name="Math1" 
-                        Height="254" 
-                        Width="200"
+                        Width="560" 
+                        Height="210">
+                <Button x:Name="Math1"
                         Click="Math1_Click">
                     <Image Source="/Math.jpg" 
-                           Width="200"/>
+                           Height="200" 
+                           Width="160"/>
                 </Button>
                 <TextBlock TextWrapping="Wrap" 
-                           Width="295" 
-                           Height="229"><Run Language="ru-ru"
-                         FontWeight="Bold"
-                         FontSize="25"
-                         Text="Математика 1 класс"/>
-                    <LineBreak/>
-                    <Run Language="ru-ru"
-                         FontSize="18"
-                         Text="Решение к учебнику"/><LineBreak/>
-                    <Run Language="ru-ru"/><LineBreak/>
-                    <Run FontSize="18"
-                         Text="Школа России"/><LineBreak/>
-                    <Run FontSize="18"
-                         Text="М. И. Моро, С. И. Волкова, "/><LineBreak/>
-                    <Run FontSize="18"
-                         Text="С. В. Степанова"/><LineBreak/>
-                    <Run FontSize="18"
-                         Text="Изд. Просвещение 2016"/>
-                </TextBlock>
+                    Width="295" 
+                    Height="200">
+                        <Run Language="ru-ru"
+                        FontWeight="Bold"
+                        FontSize="25"
+                        Text="Математика 1 класс"/>
+                        <LineBreak/>
+                        <Run Language="ru-ru"
+                        FontSize="18"
+                        Text="Решение к азбуке"/>
+                        <LineBreak/>
+                        <Run Language="ru-ru"/>
+                        <LineBreak/>
+                        <Run FontSize="18"
+                        Text="Школа Росии"/>
+                        <LineBreak/>
+                        <Run FontSize="18"
+                        Text="М. И. Моро, С. И. Волкова,"/>
+                        <LineBreak/>
+                        <Run FontSize="18"
+                        Text="С. В. Степанова"/>
+                        <LineBreak/>
+                        <Run FontSize="18"
+                        Text="Изд. Просвещение 2016"/>
+                    </TextBlock>       
             </StackPanel>
             <StackPanel Margin="5" 
                         Orientation="Horizontal" 
-                        Width="765" 
-                        Height="254">
-                <Image Height="100" Width="100">
-                    <Image.OpacityMask>
-                        <ImageBrush/>
-                    </Image.OpacityMask>
-                </Image>
+                        Width="560" 
+                        Height="210">
+                <Button x:Name="buttonAzbuka"
+                        Click="buttonAzbuka_Click">
+                    <Image Source="/Azbuka.jpg" 
+                           Height="200"
+                           Width="160"/>
+                </Button>
                 <TextBlock TextWrapping="Wrap" 
                     Width="295" 
-                    Height="230"><Run Language="ru-ru"
+                    Height="200">
+                    <Run Language="ru-ru"
                         FontWeight="Bold"
                         FontSize="25"
-                        Text="Математика 1 класс"/><LineBreak/><Run Language="ru-ru"
+                        Text="Русский язык 1 класс"/>
+                    <LineBreak/>
+                    <Run Language="ru-ru"
                         FontSize="18"
-                        Text="Решение к учебнику"/><LineBreak/><Run Language="ru-ru"/><LineBreak/><Run FontSize="18"
-                        Text="Школа России"/><LineBreak/><Run FontSize="18"
-                        Text="М. И. Моро, С. И. Волкова, "/><LineBreak/><Run FontSize="18"
-                        Text="С. В. Степанова"/><LineBreak/><Run FontSize="18"
-                        Text="Изд. Просвещение 2016"/></TextBlock>
+                        Text="Решение к азбуке"/>
+                    <LineBreak/>
+                    <Run Language="ru-ru"/>
+                    <LineBreak/><Run FontSize="18"
+                        Text="Школа Росии (азбука)"/>
+                    <LineBreak/>
+                    <Run FontSize="18"
+                        Text="В. Г. Горецкий, В. А. Кирюшкин, "/>
+                    <LineBreak/>
+                    <Run FontSize="18"
+                        Text="Л. А. Виноградская"/>
+                    <LineBreak/>
+                    <Run FontSize="18"
+                        Text="Изд. Просвещение 2017"/>
+                </TextBlock>
+            </StackPanel>
+            <StackPanel 
+                Orientation="Horizontal" 
+                Width="560" 
+                Height="210">
+                <Button x:Name="button_World">
+                    <Image Source="/TheWorld1.jpg"
+                           Height="200"
+                           Width="160"/>
+                </Button>
+                <TextBlock TextWrapping="Wrap" 
+                        Width="295" 
+                        Height="200">
+                        <Run Language="ru-ru"
+                            FontWeight="Bold"
+                            FontSize="25"
+                            Text=" Окружающий мир 1 класс"/>
+                        <LineBreak/>
+                        <Run Language="ru-ru"
+                            FontSize="18"
+                            Text="Решение к учебнку"/>
+                        <LineBreak/>
+                        <Run Language="ru-ru"/>
+                        <LineBreak/><Run FontSize="18"
+                            Text="Школа Росии"/>
+                        <LineBreak/>
+                        <Run FontSize="18"
+                            Text="А. А. Плешаков"/>
+                        <LineBreak/>
+                        <Run FontSize="18"
+                            Text="Изд. Просвещение 2016"/>
+                </TextBlock>
+            </StackPanel>
+            <StackPanel 
+                Orientation="Horizontal" 
+                Width="560" 
+                Height="210">
+                <Button x:Name="button_Workbook">
+                    <Image Source="/Outward1.jpg"
+                           Height="200"
+                           Width="160"/>
+                </Button>
+                <TextBlock TextWrapping="Wrap" 
+                            Width="295" 
+                            Height="200">
+                            <Run Language="ru-ru"
+                                FontWeight="Bold"
+                                FontSize="25"
+                                Text=" Окружающий мир 1 класс"/>
+                            <LineBreak/>
+                            <Run Language="ru-ru"
+                                FontSize="18"
+                                Text="Решение к рабочей тетради"/>
+                            <LineBreak/>
+                            <Run Language="ru-ru"/>
+                            <LineBreak/><Run FontSize="18"
+                                Text="Планета знаний"/>
+                            <LineBreak/>
+                            <Run FontSize="18"
+                                Text="Ивченкова Г.Г., Потапов И.В."/>
+                            <LineBreak/>
+                            <Run FontSize="18"
+                                Text="Изд. Дрофа 2017"/>
+                </TextBlock>
             </StackPanel>
             <StackPanel 
                 Orientation="Horizontal" 
                 Width="765" 
                 Height="254"/>
-            <StackPanel 
-                Orientation="Horizontal" 
-                Width="765" 
-                Height="254"/>
-            <StackPanel 
-                Orientation="Horizontal" 
-                Width="765" 
-                Height="254"/>
-
         </ListBox>
     </Grid>
 </Window>

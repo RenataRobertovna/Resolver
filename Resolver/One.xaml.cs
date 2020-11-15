@@ -20,6 +20,7 @@ namespace Resolver
         public One()
         {
             InitializeComponent();
+
         }
 
         private void Math1_Click(object sender, RoutedEventArgs e)
@@ -34,6 +35,13 @@ namespace Resolver
             MainWindow mainWindow = new MainWindow(); //открытие главного окна
             mainWindow.Show();
 
+            this.Close();
+        }
+
+        private void buttonAzbuka_Click(object sender, RoutedEventArgs e)
+        {
+            Azbuka_book azbuka_Book = new Azbuka_book();
+            azbuka_Book.Show();
             this.Close();
         }
     }

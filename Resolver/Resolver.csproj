@@ -8,20 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Azbuka.jpg" />
     <None Remove="BookIcon.png" />
     <None Remove="bookmarks.png" />
+    <None Remove="books.png" />
     <None Remove="Eight.png" />
     <None Remove="Five.png" />
     <None Remove="Four.png" />
     <None Remove="icon.jpg" />
+    <None Remove="img1.png" />
     <None Remove="left-arrow.png" />
     <None Remove="Math.jpg" />
+    <None Remove="math4.png" />
     <None Remove="Math_book2.jpg" />
     <None Remove="Nine.png" />
     <None Remove="One.png" />
+    <None Remove="Outward1.jpg" />
     <None Remove="questions.png" />
     <None Remove="Seven.png" />
     <None Remove="Six.png" />
+    <None Remove="TheWorld1.jpg" />
     <None Remove="Three.png" />
     <None Remove="Two.png" />
     <None Remove="vip.png" />
@@ -32,20 +38,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Azbuka.jpg" />
     <Resource Include="BookIcon.png" />
     <Resource Include="bookmarks.png" />
+    <Resource Include="books.png" />
     <Resource Include="Eight.png" />
     <Resource Include="Five.png" />
     <Resource Include="Four.png" />
     <Resource Include="icon.jpg" />
+    <Resource Include="img1.png" />
     <Resource Include="left-arrow.png" />
     <Resource Include="Math.jpg" />
+    <Resource Include="math4.png" />
     <Resource Include="Math_book2.jpg" />
     <Resource Include="Nine.png" />
     <Resource Include="One.png" />
+    <Resource Include="Outward1.jpg" />
     <Resource Include="questions.png" />
     <Resource Include="Seven.png" />
     <Resource Include="Six.png" />
+    <Resource Include="TheWorld1.jpg" />
     <Resource Include="Three.png" />
     <Resource Include="Two.png" />
     <Resource Include="vip.png" />

@@ -29,5 +29,28 @@ namespace Resolver
 
             this.Close();
         }
+
+        /*private void buttonPage_four_Click(object sender, RoutedEventArgs e)
+        {
+            MathPage_Four mathPage_Four = new MathPage_Four();
+            mathPage_Four.Show();
+
+            this.Close();
+        }
+        
+        private void buttonPage_four_MouseEnter(object sender, MouseEventArgs e)
+        {
+            PopUp4.IsOpen = true;
+        }*/
+
+        private void buttonPage_five_MouseEnter(object sender, MouseEventArgs e)
+        {
+            PopUp5.IsOpen = true;
+        }
+
+        private void buttonPage_six_MouseEnter(object sender, MouseEventArgs e)
+        {
+            PopUp6.IsOpen = true;
+        }
     }
 }

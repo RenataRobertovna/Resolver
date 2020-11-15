@@ -5,19 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Resolver"
         mc:Ignorable="d"
-        Title="Math_book"
+        Title="Математика"
         Height="800" 
         Width="800"
-        ResizeMode="NoResize">
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Topmost="True">
     <Grid>
         <Image HorizontalAlignment="Left" 
-               Height="254" 
+               Height="180" 
                Margin="18,75,0,0" 
                VerticalAlignment="Top"
-               Width="200"
+               Width="140"
                Source="/Math.jpg"/>
         <TextBlock TextWrapping="Wrap" 
-                   Margin="252,77,252,459">
+                   Margin="190,74,345,633">
             <Run Language="ru-ru"
                  FontWeight="Bold"
                  FontSize="25"
@@ -42,16 +44,16 @@
                 Text="Изд. Просвещение 2016"/>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" 
-                   Margin="18,331,0,0" 
+                   Margin="18,256,0,0" 
                    Text="Содержание" 
                    TextWrapping="Wrap" 
                    VerticalAlignment="Top" 
                    Height="45" 
                    Width="219" FontFamily="Gabriola" FontSize="36"/>
         <Button x:Name="part1" 
-                Content="Часть 1"
+                Content="Страницы"
                 HorizontalAlignment="Center" 
-                Margin="0,380,0,0" 
+                Margin="0,304,0,0" 
                 VerticalAlignment="Top" 
                 Width="764" 
                 Height="44" 
@@ -61,9 +63,9 @@
                 Click="part1_Click"/>
         <StatusBar Margin="0,0,0,1139"/>
         <Button x:Name="part2"
-            Content="Часть 2"
+            Content="Страницы"
             HorizontalAlignment="Center" 
-            Margin="0,710,0,0" 
+            Margin="0,560,0,0" 
             VerticalAlignment="Top" 
             Width="764" 
             Height="44" 
@@ -71,6 +73,28 @@
             FontFamily="Gabriola" 
             Background="#FFD6F7F7"
                 Click="part2_Click"/>
+        <Button x:Name="button_Task"
+                 Content="Задание внизу страницы"
+            HorizontalAlignment="Center" 
+            Margin="0,625,0,0" 
+            VerticalAlignment="Top" 
+            Width="764" 
+            Height="44" 
+            FontSize="30" 
+            FontFamily="Gabriola" 
+            Background="#FFD6F7F7"
+                Click="button_Task_Click"/>
+        <Button x:Name="button_task"
+                 Content="Задание на полях страницы"
+            HorizontalAlignment="Center" 
+            Margin="0,685,0,0" 
+            VerticalAlignment="Top" 
+            Width="764" 
+            Height="44" 
+            FontSize="30" 
+            FontFamily="Gabriola" 
+            Background="#FFD6F7F7"
+                Click="button_task_Click_1"/>
         <Button x:Name="back" 
                 HorizontalAlignment="Left" 
                 Margin="18,19,0,0" 
@@ -83,12 +107,22 @@
             </Button.Background>
         </Button>
         <Image HorizontalAlignment="Left" 
-            Height="254" 
-            Margin="18,439,0,0" 
+            Height="180" 
+            Margin="19,364,0,0" 
             VerticalAlignment="Top"
-            Width="197"
+            Width="140"
             Source="/Math_book2.jpg">
         </Image>
-
+        <TextBlock TextWrapping="Wrap" 
+            Margin="190,364,345,340"><Run Language="ru-ru"
+                FontWeight="Bold"
+                FontSize="25"
+                Text="Математика 1 класс"/><LineBreak/><Run Language="ru-ru"
+                FontSize="18"
+                Text="Решение к учебнику (часть 2) "/><LineBreak/><Run Language="ru-ru"/><LineBreak/><Run FontSize="18"
+                Text="Школа России"/><LineBreak/><Run FontSize="18"
+                Text="М. И. Моро, С. И. Волкова, "/><LineBreak/><Run FontSize="18"
+                Text="С. В. Степанова"/><LineBreak/><Run FontSize="18"
+                Text="Изд. Просвещение 2016"/></TextBlock>
     </Grid>
 </Window>

@@ -7,19 +7,70 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Azbuka_book.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Bookmarks.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Eight.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Five.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Four.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MathPage_Four.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Math_book.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Nine.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="One.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PartTwo_Task.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PartTwo_task2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Part_one.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Part_two.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Questions.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Seven.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SingIn.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Six.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Test.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Three.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Two.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Vip.xaml.cs">
@@ -27,22 +78,73 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Azbuka_book.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Bookmarks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Eight.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Five.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Four.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="MathPage_Four.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Math_book.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Nine.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="One.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PartTwo_Task.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PartTwo_task2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Part_one.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Part_two.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Questions.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Seven.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SingIn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Six.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Test.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Three.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Two.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vip.xaml">

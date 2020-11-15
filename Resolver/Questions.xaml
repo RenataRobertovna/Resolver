@@ -5,10 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Resolver"
         mc:Ignorable="d"
-        Title="Questions" 
-        Height="709" 
-        Width="614"
-        ResizeMode="NoResize">
+        Title="Вопросы" 
+        Height="800" 
+        Width="600"
+        ResizeMode="NoResize"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <TextBlock HorizontalAlignment="Center"
                    Margin="0,135,0,0" 
